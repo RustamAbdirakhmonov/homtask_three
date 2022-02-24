@@ -28,7 +28,7 @@ class DictionaryItem extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
               Text(word,style: TextStyle(fontSize: 20),textAlign: TextAlign.left,),
-              Text(hashtag, style: TextStyle(color: Colors.grey,fontSize: 16),textAlign: TextAlign.left),
+              Text(hashtag, style: const  TextStyle(color: Colors.grey,fontSize: 16),textAlign: TextAlign.left),
               const Divider(color: Colors.grey,height: 2,)
             ],
           ),
